@@ -9,9 +9,10 @@ subtrain <- read.table("~/Desktop/UCI HAR Dataset/train/subject_train.txt", quot
 xtrain <- read.table("~/Desktop/UCI HAR Dataset/train/X_train.txt", quote="\"", comment.char="")
 ytrain <- read.table("~/Desktop/UCI HAR Dataset/train/y_train.txt", quote="\"", comment.char="")
 
+Xtesttrain <- rbind(xtest, xtrain)
+
 #2. Extracts only the measurements on the mean and standard deviation for each measurment.
 #3. Uses descriptie activity names to name the activities in the data set.
-Xtesttrain <- rbind(xtest, xtrain)
 #The column numbers that include mean or std are 
 #1:6, 41:46, 81:86, 121:126, 161:166, 201, 202, 214, 215, 227, 228, 240, 241, 253, 254, 
 #266:271, 345:350, 424:429, 503, 504, 529, 530
