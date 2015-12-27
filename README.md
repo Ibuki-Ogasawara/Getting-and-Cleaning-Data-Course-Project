@@ -16,5 +16,5 @@ Part5
 
 "averages" is the function that calculates the average of each variable, each activities, and each subjects return to 30 by 63 matrix with subjects' id numbers and 62 different variables in the columns. 
 
-
+Finally, the column names are exactly the same as the ones in "features.txt" and so as the descriptions. 
 
