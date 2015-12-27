@@ -1,8 +1,8 @@
 # Getting-and-Cleaning-Data-Course-Project
-Part1
+Part1\
 The code uploads the datasets and merges on the "X" test and train files. 
 
-Part2 and 3
+Part2 and 3\
 The vector "meanstdcol" is manually created by looking at the "features" data.
 Xmeanstd_test_train only includes mean and standard deviation of each variable.
 
