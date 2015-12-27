@@ -52,6 +52,6 @@ averages <- function(dataset, n=62){
 }
 
 tidydata <- averages(ordered_by_sub)
-
+write.table(tidydata, file="projectdata", row.names=FALSE)
 
 
